@@ -9,7 +9,7 @@ const port=Number(process.env.POS_PORT||4318);
 const url=`http://127.0.0.1:${port}`;
 const logFile=path.join(folder,'startup-error.txt');
 function fail(error){
- const message=`起動できませんでした。\n${error.message}\n\nZIPをすべて展開して「起動.bat」を開いてください。\n別の版が起動中の場合は、その黒いウィンドウを閉じてから再度起動してください。\nデータファイルは削除・初期化していません。\n`;
+ const message=`起動できませんでした。\n${error.message}\n\nZIPをすべて展開して「POSレジを起動.exe」を開いてください。\n別の版が起動中の場合は、その黒いウィンドウを閉じてから再度起動してください。\nデータファイルは削除・初期化していません。\n`;
  console.error(message);
  try{fs.writeFileSync(logFile,`${new Date().toISOString()}\nNode ${process.version} ${process.arch}\n${message}\n${error.stack||''}`);}catch{}
  process.exitCode=1;

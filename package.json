@@ -1,1 +1,1 @@
-{"name":"nyushukka-prototype","version":"0.2.1","private":true,"scripts":{"start":"node server.js","test":"node --test test.js"}}
+{"name":"nyushukka-prototype","version":"0.2.2","private":true,"scripts":{"start":"node server.js","test":"node --test test.js"}}
