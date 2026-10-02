@@ -1,0 +1,299 @@
+{
+  "products": [
+    {
+      "name": "テスト商品",
+      "kana": "",
+      "taxType": "内税",
+      "taxRate": 10,
+      "salePrice": 100,
+      "costPrice": 50,
+      "barcode": "500",
+      "shortcut": "1",
+      "supplierId": "1",
+      "memo": "",
+      "unit": "",
+      "stockStandard": "",
+      "department": "",
+      "storeNumber": "1",
+      "remark1": "",
+      "remark2": "",
+      "remark3": "",
+      "remark4": "",
+      "remark5": "",
+      "macro": "",
+      "image": "",
+      "discountTarget": "1",
+      "pointTarget": "0",
+      "id": 1
+    },
+    {
+      "name": "配置確認商品",
+      "kana": "",
+      "taxType": "内税",
+      "taxRate": 10,
+      "salePrice": 120,
+      "costPrice": 60,
+      "discountTarget": "1",
+      "pointTarget": "1",
+      "stockStandard": "0",
+      "unit": "",
+      "memo": "",
+      "barcode": "501",
+      "shortcut": "0",
+      "department": "",
+      "supplierId": "1",
+      "storeNumber": "1",
+      "remark1": "",
+      "remark2": "",
+      "remark3": "",
+      "remark4": "",
+      "remark5": "",
+      "macro": "",
+      "image": "",
+      "id": 2
+    }
+  ],
+  "customers": [
+    {
+      "category": "",
+      "cardId": "000003",
+      "joined": "",
+      "expires": "",
+      "name": "試用顧客",
+      "kana": "",
+      "birthday": "",
+      "address": "",
+      "email": "",
+      "remark1": "",
+      "remark2": "",
+      "discountRate": "0",
+      "postal": "000-0000",
+      "phone": "",
+      "fax": "",
+      "pointTarget": "0",
+      "id": 1
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "テスト商店",
+      "kana": "",
+      "postal": "",
+      "address": "",
+      "email": "",
+      "phone": "",
+      "fax": "",
+      "remark1": "",
+      "remark2": "",
+      "remark3": "",
+      "id": 1
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "requestId": "ff565eda-ace5-4b6e-ba42-7013686700ca",
+      "date": "2026-10-02T13:09:45.567Z",
+      "mode": "販売",
+      "lines": [
+        {
+          "productId": 1,
+          "name": "テスト商品",
+          "barcode": "500",
+          "quantity": 1,
+          "price": 100,
+          "discount": 0,
+          "memo": "",
+          "taxType": "内税",
+          "taxRate": 10,
+          "tax": 9,
+          "amount": 100
+        }
+      ],
+      "total": 100,
+      "tender": 200,
+      "change": 100,
+      "note": "",
+      "operator": "",
+      "provisional": true
+    },
+    {
+      "id": 2,
+      "requestId": "82815b2a-f27e-4e37-8669-9e7a102555fb",
+      "date": "2026-10-02T13:10:28.012Z",
+      "mode": "現金仕入",
+      "lines": [
+        {
+          "productId": 1,
+          "name": "テスト商品",
+          "barcode": "500",
+          "quantity": 1,
+          "price": 50,
+          "discount": 0,
+          "memo": "",
+          "taxType": "内税",
+          "taxRate": 10,
+          "tax": 4,
+          "amount": 50
+        }
+      ],
+      "total": 50,
+      "tender": null,
+      "change": null,
+      "note": "",
+      "operator": "",
+      "provisional": true
+    },
+    {
+      "id": 3,
+      "requestId": "ec18024f-c0e3-49e3-afdc-b53c9f8dc46e",
+      "date": "2026-10-02T13:10:29.767Z",
+      "mode": "棚卸",
+      "lines": [
+        {
+          "productId": 1,
+          "name": "テスト商品",
+          "barcode": "500",
+          "quantity": 1,
+          "price": 100,
+          "discount": 0,
+          "memo": "",
+          "taxType": "内税",
+          "taxRate": 10,
+          "tax": 9,
+          "amount": 100
+        }
+      ],
+      "total": 0,
+      "tender": null,
+      "change": null,
+      "note": "",
+      "operator": "",
+      "provisional": true
+    },
+    {
+      "id": 4,
+      "requestId": "b255fc7d-d0f3-4255-b20c-d460d159bd5c",
+      "date": "2026-10-02T13:52:18.892Z",
+      "mode": "販売",
+      "lines": [
+        {
+          "productId": 1,
+          "name": "テスト商品",
+          "barcode": "500",
+          "quantity": 2,
+          "price": 100,
+          "discount": 0,
+          "memo": "",
+          "taxType": "内税",
+          "taxRate": 10,
+          "tax": 18,
+          "amount": 200,
+          "costPrice": 50,
+          "supplierId": null,
+          "supplierName": "",
+          "shopNumber": "1"
+        }
+      ],
+      "total": 200,
+      "tender": 500,
+      "change": 300,
+      "note": "",
+      "item": "",
+      "operator": "",
+      "shopNumber": "1",
+      "registerNumber": "1",
+      "customer": null,
+      "provisional": true
+    },
+    {
+      "id": 5,
+      "requestId": "09813c45-d490-4df4-be7a-ba508ce45d12",
+      "date": "2026-10-02T13:52:34.035Z",
+      "mode": "現金仕入",
+      "lines": [
+        {
+          "productId": 1,
+          "name": "テスト商品",
+          "barcode": "500",
+          "quantity": 1,
+          "price": 50,
+          "discount": 0,
+          "memo": "",
+          "taxType": "内税",
+          "taxRate": 10,
+          "tax": 4,
+          "amount": 50,
+          "costPrice": 50,
+          "supplierId": 1,
+          "supplierName": "テスト商店",
+          "shopNumber": "1"
+        }
+      ],
+      "total": 50,
+      "tender": null,
+      "change": null,
+      "note": "",
+      "item": "",
+      "operator": "",
+      "shopNumber": "1",
+      "registerNumber": "1",
+      "customer": null,
+      "provisional": true
+    }
+  ],
+  "settings": {
+    "operator": "",
+    "weather": "",
+    "temperature": "",
+    "shopNumber": "1",
+    "registerNumber": "1",
+    "mergeSame": true,
+    "promptSales": false,
+    "promptPurchase": true,
+    "promptMovement": true,
+    "cards": [
+      "カード1",
+      "カード2",
+      "カード3"
+    ],
+    "vouchers": [
+      "商品券1",
+      "商品券2",
+      "商品券3"
+    ],
+    "selectItems": []
+  },
+  "drafts": [
+    {
+      "id": 1,
+      "requestId": "32f20eee-b3e8-4e2c-979b-a5cd1e083d67",
+      "date": "2026-10-02T13:54:17.592Z",
+      "mode": "掛売",
+      "lines": [
+        {
+          "productId": 1,
+          "name": "テスト商品",
+          "barcode": "500",
+          "quantity": 1,
+          "price": 100,
+          "discount": 0,
+          "memo": "",
+          "taxType": "内税",
+          "taxRate": 10,
+          "tax": 9,
+          "amount": 100,
+          "costPrice": 50,
+          "supplierId": 1,
+          "supplierName": "テスト商店",
+          "shopNumber": "1"
+        }
+      ],
+      "customer": null,
+      "note": "掛売の操作確認・残高未処理",
+      "provisional": true,
+      "kind": "draft",
+      "status": "観察用・未確定"
+    }
+  ]
+}
