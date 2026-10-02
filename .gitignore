@@ -1,0 +1,7 @@
+/data/
+/runtime/node.exe
+/dist/
+/startup-error.txt
+*.bak
+*.tmp
+node_modules/
