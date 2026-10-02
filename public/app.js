@@ -469,5 +469,6 @@ function radios(label,name,options,value){return '<div class="radio-fields" role
 function parts(label,name,value,count){const values=String(value||'').split('-');return '<label>'+esc(label)+'<span class="contact-parts">'+Array.from({length:count},(_,i)=>'<input name="'+name+i+'" aria-label="'+esc(label)+' '+(i+1)+'" value="'+esc(values[i]||'')+'">').join('<span>−</span>')+'</span></label>';}
 
 $('exitHelp').onclick=()=>show('終了','<p>ブラウザーを閉じ、起動時のウィンドウでCtrl+Cを押してください。入力途中の明細は未保存です。</p>',null);
-$('version').onclick=()=>show('バージョン情報','<p>Nyushukka代替POS 試作 v0.2.1。原画像参照版。旧Nyushukkaそのものではありません。</p>',null);
+$('version').onclick=()=>show('バージョン情報','<p>Nyushukka代替POS 試作 v0.2.2。原画像参照版。旧Nyushukkaそのものではありません。</p>',null);
+
 
